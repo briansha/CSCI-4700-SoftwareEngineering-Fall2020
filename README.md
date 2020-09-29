@@ -14,7 +14,9 @@ A.	Our painting task will be developed using the Unity Engine, and the primary i
 III.	Input / Output Data: 
 
 A.	Our painting task contains different levels  and each level contains different tasks. Level 1 is the “paint by number” task. It will take an image as an input from the device and convert  to its  number version. 
+
 B.	This project will take the input from users to paint on its painting canvas for the second level. We're using a mouse and keyboard as an input device. In this project, there will be two participants (players), and both of them are able to choose color and its intensity. Similarly, they will have a brush to paint on the canvas with the different size so that participants can choose the brush accordingly.  
+
 C.	There will be the default coordinates A(0,0). Arrow keys and A, W, S, D are responsible for reading the axis using the keyword Input.GetAxis. Similarly, the left key of the mouse is responsible to choose different colors and brush size and drag to canvas. Right key will be responsible to fill the color on a certain closed area and undo. 
 
 IV.	Users/Stakeholders:
