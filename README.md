@@ -1,6 +1,8 @@
 # CSCI-4700-SoftwareEngineering-Fall2020
 Unity-based team project for Vanderbilt clients
 
+Version: Unity 2020.1.6
+
 System Statement of Scope
 
 I.	Scope Statement
