@@ -2,8 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
+
 public class dotControl : MonoBehaviour
 {
+
+    public static dotControl Instance;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,6 +22,16 @@ public class dotControl : MonoBehaviour
     }
     void OnMouseOver()
     {
+        /*if (Instance)
+        {
+            DestroyImmediate(gameObject);
+        }
+        else
+        {
+            DontDestroyOnLoad(gameObject);
+            Instance = this;
+        }*/
+
         if (paintGM.toolType == "eraser")
         {
             Destroy(gameObject);

@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Free Draw.unity
+- path: Assets/Scenes/TaskMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
