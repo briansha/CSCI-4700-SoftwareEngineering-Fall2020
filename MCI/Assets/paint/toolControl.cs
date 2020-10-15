@@ -25,7 +25,7 @@ public class toolControl : MonoBehaviour
         if (gameObject.name == "pencil")
         {
             paintGM.toolType = "pencil";
-            //Debug.Log("eraser selected");
+            //Debug.Log("pencil selected");
         }
     }
 }
