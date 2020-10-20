@@ -20,12 +20,17 @@ public class toolControl : MonoBehaviour
         if (gameObject.name == "eraser")
         {
             paintGM.toolType = "eraser";
-            //Debug.Log("eraser selected");
+            
         }
         if (gameObject.name == "pencil")
         {
             paintGM.toolType = "pencil";
-            //Debug.Log("pencil selected");
+            
+        }
+        if (gameObject.name == "pencilSizeUp")
+        {
+            paintGM.currentScale += 0.5f;
+
         }
     }
 }

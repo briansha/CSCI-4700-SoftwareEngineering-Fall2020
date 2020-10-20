@@ -6,6 +6,8 @@ public class paintGM : MonoBehaviour
     public Transform baseDot;
     public KeyCode mouseLeft;
     public static string toolType;
+    public static Color currentColor;
+    public static float currentScale = 1f;
 
     
     // Start is called before the first frame update
