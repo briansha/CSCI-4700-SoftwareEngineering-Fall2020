@@ -8,33 +8,20 @@ using UnityEngine;
 public class dotControl : MonoBehaviour
 {
 
-    public static dotControl Instance;
-    // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        GetComponent<SpriteRenderer>().color=paintGM.currentColor;
+        GetComponent<Transform>().localScale = new Vector2(paintGM.currentScale, paintGM.currentScale);
     }
     void OnMouseOver()
     {
-        /*if (Instance)
-        {
-            DestroyImmediate(gameObject);
-        }
-        else
-        {
-            DontDestroyOnLoad(gameObject);
-            Instance = this;
-        }*/
-
         if (paintGM.toolType == "eraser")
-        {
-            Destroy(gameObject);
-        }
+                {
+                    Destroy(gameObject);
+                }
     }
+
+
+        
+    
 }
