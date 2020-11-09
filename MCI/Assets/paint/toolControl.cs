@@ -22,6 +22,8 @@ public class toolControl : MonoBehaviour
             paintGM.toolType = "eraser";
             
         }
+
+
         if (gameObject.name == "pencil")
         {
             paintGM.toolType = "pencil";
@@ -29,7 +31,12 @@ public class toolControl : MonoBehaviour
         }
         if (gameObject.name == "pencilSizeUp")
         {
-            paintGM.currentScale += 0.5f;
+            paintGM.currentScale += 4;
+
+        }
+        if (gameObject.name == "pencilSizeDown")
+        {
+            paintGM.currentScale -= 4;
 
         }
     }
