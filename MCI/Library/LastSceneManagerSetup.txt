@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Connect The Numbers.unity
+- path: Assets/Scenes/PaintMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

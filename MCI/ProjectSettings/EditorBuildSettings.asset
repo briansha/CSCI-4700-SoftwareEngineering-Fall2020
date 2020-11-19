@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Free Draw.unity
     guid: b35abb3bd68f1474c8294814b7eaff1b
+  - enabled: 1
+    path: Assets/Scenes/ConnectTheDots.unity
+    guid: ff2881ee7ae285940baaf83e8fcb77d6
   m_configObjects: {}
