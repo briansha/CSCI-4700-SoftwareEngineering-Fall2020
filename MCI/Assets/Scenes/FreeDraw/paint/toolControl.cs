@@ -20,6 +20,7 @@ public class toolControl : MonoBehaviour
         if (gameObject.name == "eraser")
         {
             paintGM.toolType = "eraser";
+            paintGM.currentColor = paintGM.imageColor;
             
         }
 
